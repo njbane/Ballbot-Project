@@ -1,0 +1,40 @@
+/*
+ * Purpose: This code is meant to interface the UNO with the Inertial Measurement
+ * Unit (IMU) and two motors, and it will include control equations that will keep the 
+ * ballbot perpendicular to the X-Y plane.
+ *
+ * Date Modified: 2/13/2018
+ */
+
+const int x_motor_Pin = 2; /* Motor controlling movement in the x_direction */
+const int y_motor_Pin = 3; /* Motor controlling y-movement */
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(x_motor_Pin,OUTPUT); 
+  pinMode(y_motor_Pin,OUTPUT);
+
+}
+
+void loop() {
+  
+
+}
+
+void get_Angle(){
+  
+  Serial.print("Angles Code");
+  
+  }
+  
+void get_Accel(){
+  
+  Serial.print("Acceleration Code");
+  
+  }
+
+void command_Motor(){
+  
+  Serial.print("Motor Code");
+  
+  }
