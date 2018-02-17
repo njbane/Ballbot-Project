@@ -103,5 +103,5 @@ void displaySensorDetails(void) /* Shows basic sensor details */
   Serial.print  ("Resolution:   "); Serial.print(sensor.resolution); 
   Serial.println("");
   
-  delay(250);
+  delay(250);// This is a delay
 }
